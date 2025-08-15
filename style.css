@@ -27,6 +27,7 @@
 body {
     /* backgroud: color image repeat position/size */
     background: var(--bg-url) no-repeat top center/cover;
+    /* height: 100vh; */
 }
 
 body * {
@@ -39,7 +40,7 @@ body * {
     max-width: 588px;
     margin: 0 auto;
     margin-top: 56px;
-    padding: 0 24px;;
+    padding: 0 24px;
 }
 
 /* Profile */
@@ -54,6 +55,7 @@ body * {
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid rgb(101, 100, 100);
+
 }
 
 #profile p {
@@ -154,10 +156,9 @@ ul li a:hover {
 }
 
 footer {
+    padding: 24px 0;
     text-align: center;
-    padding: 34px 0;
     font-size: 14px;
-    color: var(--stroke-color);
 }
 
 /* Media queries */
