@@ -27,7 +27,6 @@
 body {
     /* backgroud: color image repeat position/size */
     background: var(--bg-url) no-repeat top center/cover;
-    height: 100vh;
 }
 
 body * {
@@ -156,8 +155,8 @@ ul li a:hover {
 
 footer {
     text-align: center;
+    padding: 24px 0;
     font-size: 14px;
-    padding-bottom: 20px;
     color: var(--stroke-color);
 }
 
