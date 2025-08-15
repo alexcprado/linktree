@@ -27,7 +27,6 @@
 body {
     /* backgroud: color image repeat position/size */
     background: var(--bg-url) no-repeat top center/cover;
-    height: 91.4vh;
 }
 
 body * {
@@ -152,6 +151,13 @@ ul li a:hover {
 
 #social-links ion-icon:hover {
     background: var(--highlight-color);
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: var(--stroke-color);
 }
 
 /* Media queries */
